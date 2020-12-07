@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CSS Overlaying One DIV over Another DIV</title>
+<style> 
+    .container{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        margin: 202px;
+    }
+    .box{
+        width: 100%;
+        height: 100%;            
+        position: absolute;
+        top: 10;
+        left: 0;
+        opacity: 0.8;  /* for demo purpose  */
+        background: red;
+    }
+    .stack-top{
+        z-index: 9;
+        margin: 20px; /* for demo purpose  */
+        background: blue;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box stack-top"></div>
+    </div>
+</body>
+</html>

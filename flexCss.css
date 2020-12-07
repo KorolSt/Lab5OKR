@@ -1,0 +1,172 @@
+h1{
+	border: 2px solid;
+	width: 95%;
+	background: white;
+	min-height: 40px;
+	position: sticky;
+}
+
+.botomH{
+	text-align: center;
+	position: sticky;
+}
+
+.header{
+	width: 100%;
+	min-height: 110px;
+	border: 2px solid;
+	background: lightgreen;
+	display: flex; 
+	position: absolute;
+}
+
+.header-left-info{
+	width: 10%;
+	text-align: left;
+	padding-top: 2.8%;
+	padding-left: 2%;
+	position: sticky;
+}
+
+.header-right-info{
+	width: 90%;
+	padding-left: 62%;
+	text-align: right;
+	padding-top: 0.5%;
+	position: sticky;
+}
+
+.left{
+	width: 23%;
+	min-height: 620px;
+	border: 2px solid;
+	background: lightgreen;
+	position: absolute;
+	margin-top: 7.5%;
+}
+
+.left-info{
+	text-align: center;
+	padding-top: 60%;
+	padding-right: 1%;
+	padding-left: 1%;
+	position: sticky;
+}
+
+.right{
+	width: 20%;
+	height: 509px;
+	border: 2px solid;
+	background: lightgreen;
+	position: absolute;
+	margin-left: 80.1%;
+	margin-top: 7.5% ;
+}
+.right-info{
+	text-align: center;
+	padding-top: 71%;
+	position: sticky;
+}
+
+
+.mid{
+	display: flex;
+	flex-direction: row;	
+	position: absolute;	
+}
+
+.center{
+	display: flex;
+  	flex-direction: column;
+ 	min-height: 626px;
+	 width:57%;
+	 position: sticky;
+	padding-top: 7.5%;
+	padding-left: 23.2%;
+}
+
+.centerT{
+	height: 60%;
+	border: 2px solid;
+	background: lightgreen;
+	position: sticky;
+	margin-left: 0%;
+}
+
+.centerT-info{
+	text-align: center;
+	padding-top: 20%;	
+	position: sticky;
+}
+
+.centerB{
+	height: 20%;
+	border: 2px solid;
+	background: lightgreen;
+	position: sticky;
+}
+
+.centerB-info{
+	text-align: center;
+	padding-top: 5%;
+	position: sticky;
+}
+
+.footer{
+	width: 77%;
+	min-height: 113px;
+	border: 2px solid;
+	background: lightgreen;
+	display: flex; 
+	position: absolute;	
+	margin-top: 41%;
+	margin-left: 23.1%;
+}
+
+.footer-left-info{
+	width: 15%;
+	text-align: left;
+	padding-top: 4%;
+	padding-left: 2%;
+	position: sticky;
+}
+
+.footer-right-info{
+	width: 85%;
+	padding-left: 48.5%;
+	text-align: right;
+	padding-top: 1.5%;
+	position: sticky;
+}
+
+.work{
+	z-index:2222;
+	margin: 5px; /* for demo purpose  */
+	width: 810px;
+	height: 650px;
+	background-color: lightblue;
+	position: absolute;
+	opacity: 100%;	
+	display: block;
+}
+
+.anim{
+	width: 55%;
+	height: 510px;
+	border: 5px solid orange;
+	margin-top: 0;
+	background-image: url(32for32.png) ;
+}
+
+.everything{
+	position: relative;
+}
+
+.ball{
+	background-color: blue;
+	width:15px;
+    height:15px;
+    border-radius:50%;
+	position: sticky;
+	display: none;
+}
