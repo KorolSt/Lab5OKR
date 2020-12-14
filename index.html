@@ -32,24 +32,36 @@
 	</div>
 	<div class="footer"> <div class="footer-left-info"> Bottom text </div> <div class="footer-right-info"> <h1 class="botomH"> Sculptures of XV century </h1> </div></div>
 	<div class="work" id="work"> 
-		<input type="button" value="Close" id="close" style="margin-left: 90%; margin-top: 2%;"></input> 
-		<input type="button" value="Start" id="start" style="margin-left: 90%; margin-top: 2%;">
-		<div id="comands" style="margin-left: 70%; margin-top: 2%; width: 25%; height: 120px; position: absolute; text-align: right;"> </div>
-		<div class="anim" id="anim" style="flex: left; margin-top: 6.6%;"> <div class="ball" id="ball"></div> </div> 
+		<input type="button" value="Close" id="close" style="margin-left: 80%; margin-top: 2%; position: absolute;"></input> 
+		<input type="button" value="Start" id="start" style="margin-left: 90%; margin-top: 2%; position: absolute; ">
+		<div id="comands" style="width: 25%; height: 5%; margin-top: 2%; position: absolute; text-align: middle;"> </div>
+		<div class="anim" id="anim" style="flex: left;"> <div class="ball" id="ball"></div> </div> 
 		
 	</div>
 </div>
 
 
 <script>
+	
+	var areaWork = document.getElementById("work");
+
+	const windowInnerWidth = document.documentElement.clientWidth
+	const windowInnerHeight = document.documentElement.clientHeight
+
+	var workWidth = windowInnerWidth * 0.55 + 10;
+	var workHight = windowInnerHeight * 0.8 + 50;
+
+	areaWork.style.width = workWidth + "px";
+	areaWork.style.height = workHight + "px";
 	animW = document.getElementById("anim").clientWidth;
 	animH = document.getElementById("anim").clientHeight;
+		
 	var angle = 0;
 	var c = 0;
 	var rx = getRandomInt(animW);
 	var x = rx;
-	console.log(x);
-	var y = 630;
+	console.log(animH);
+	var y = workHight;
 	var w = ((animW - 100)/2);
 	var h = (animH - 50);
 	var pause = 10;

@@ -107,7 +107,7 @@ function ballMove(){
       document.getElementById("comands").innerHTML = "Go right";
       storageLog("The ball touched left border");
    }
-   else if((x >=(447)) & (y > 180) ){
+   else if((x >=(animW)) & (y > 180) ){
       c = -1;
       document.getElementById("comands").innerHTML = "Go left";
       storageLog("The ball touched right border");
